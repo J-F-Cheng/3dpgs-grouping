@@ -3,15 +3,14 @@
 Authors: Junfeng Cheng, Yingkai Yang and Tania Stathaki  
 Paper link: https://ojs.aaai.org/index.php/AAAI/article/view/32246/34401
 
----
 <div align="center">
-  <img src="./assets/teaser.png" alt="Teaser" />
+  <img src="./assets/teaser.png" alt="Teaser" width="60%" />
 </div>
 
 ## Introduction
 This repository contains the code and datasets for the paper “3DPGS: 3D Probabilistic Graph Search for Archaeological Piece Grouping.” The paper introduces a new dataset called ArcPie for the archaeological 3D grouping task. In addition, it presents a new algorithm, 3DPGS, which achieves state-of-the-art performance.
 <div align="center">
-  <img src="./assets/method.png" alt="Teaser" width="80%" />
+  <img src="./assets/method.png" alt="Teaser" width="95%" />
 </div>
 
 ## Requirements
