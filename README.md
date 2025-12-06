@@ -2,7 +2,8 @@
 
 Authors: Junfeng Cheng, Yingkai Yang and Tania Stathaki  
 Paper link: https://ojs.aaai.org/index.php/AAAI/article/view/32246/34401
--
+
+---
 <div align="center">
   <img src="./assets/teaser.png" alt="Teaser" />
 </div>
