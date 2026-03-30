@@ -19,6 +19,9 @@ conda env create -f environment.yml
 conda activate 3dpgs
 ```
 
+## Datasets
+We have released the ArcPie dataset, and you can download it from [here](https://modelscope.cn/datasets/JFCheng/ArcPie). Our dataset contains both training data and mesh data. The mesh data are the original fracture pieces data, which can be applied for rendering. You may also use it for other 3D computer vision or graphics tasks. In addition, we also contain the BBArtifact dataset used in our paper. 
+
 ## Usage
 ### Training
 ```
@@ -30,12 +33,18 @@ bash scripts/train.sh
 bash scripts/eval.sh
 ```
 
+### Rendering
+We have give an example rendering script, and you can modify the arguments in the script according to your needs:
+```
+bash scripts/render.sh
+```
+
 ## ToDo
 - [x] Release training code
 - [x] Release evaluation code
 - [x] Upload pretrained models
-- [ ] Upload dataset
-- [ ] Add rendering code
+- [x] Upload dataset
+- [x] Add rendering code
 
 ## Citation
 If you find this code useful for your research, please consider citing:
@@ -59,4 +68,4 @@ Besides, we want to express our gratitude to the following great works:
 - [Generative 3D Part Assembly via Dynamic Graph Learning](https://hyperplane-lab.github.io/Generative-3D-Part-Assembly/)
 - [Mitsuba](https://www.mitsuba-renderer.org/)
 - [PointFlowRenderer](https://github.com/zekunhao1995/PointFlowRenderer)
-
+- [Breaking Bad](https://arxiv.org/pdf/2210.11463)
