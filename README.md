@@ -20,7 +20,9 @@ conda activate 3dpgs
 ```
 
 ## Datasets
-We have released the ArcPie dataset, and you can download it from [here](https://modelscope.cn/datasets/JFCheng/ArcPie). Our dataset contains both training data and mesh data. The mesh data are the original fracture pieces data, which can be applied for rendering. You may also use it for other 3D computer vision or graphics tasks. In addition, we also contain the BBArtifact dataset used in our paper. 
+We have released the ArcPie dataset, and you can download it from [here](https://modelscope.cn/datasets/JFCheng/ArcPie). Our dataset contains both training data and mesh data. The mesh data are the original fracture pieces data, which can be applied for rendering. You may also use it for other 3D computer vision or graphics tasks. 
+
+We also include the BBArtifact dataset used in our paper. BBArtifact is created from the original meshes in the artifact category of the [Breaking Bad dataset](https://breaking-bad-dataset.github.io/).
 
 ## Usage
 ### Training
